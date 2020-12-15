@@ -1,0 +1,32 @@
+// //start social
+.social{
+    background-image: url(/assets/images/texture-geometric-shapes-colors-min-uai-1440x798.png);
+    background: linear-gradient(to left,#6442ff 0%,#9012fe 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 570px;
+    &__element{
+        padding-top: 144px;
+        &-text{
+            font-size: 35px;
+            font-family: Quicksand;
+            font-weight: 500;
+            text-align: center;
+            color: white;
+        }
+        &-para{
+            margin-top: 18px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-family: Quicksand;
+            letter-spacing: -0.02em;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+    }
+    
+}

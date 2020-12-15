@@ -1,0 +1,41 @@
+//start banner
+.banner{
+  padding: 144px 36px;
+  background-image: url(/assets/images/texture-geometric-shapes-colors-min-uai-1440x798.png);
+  background: linear-gradient(to left,#6442ff 0%,#9012fe 100%);
+  
+  &__describ{
+    color: white;
+    &-text{
+      font-size: 16px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    &-para{
+      margin-top: 18px;
+      font-size: 50px;
+      font-family: Quicksand;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+    }
+    &-ques{
+      margin-top: 18px;
+      font-size: 24px;
+      font-weight: 300;
+      margin-bottom: 36px;
+    }
+    &-btn{
+      border: 2px solid ;
+      color: #303133;
+    background-color: #ffffff;
+    border-color: #ffffff;
+      padding: 14px 40px;
+      border-radius: 10em;
+      font-size: 15px;
+    }
+  }
+  &__img{
+    padding-left: 36px;
+  }
+}

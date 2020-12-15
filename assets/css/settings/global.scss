@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+#wrapper {
+  overflow: hidden;
+}
+.mr-left {
+  margin-left: auto;
+}
+html {
+  scroll-behavior: smooth;
+}

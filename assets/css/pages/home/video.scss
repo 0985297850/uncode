@@ -1,0 +1,23 @@
+//video
+.video{
+    margin-top: -250px;
+    z-index: 1;
+    position: absolute;
+    transform: translateX(11%);
+    width: 80%;
+
+    &__click{
+        position: absolute;
+        top: 0;
+        
+        &-img{
+
+        }
+        .fa.fa-play{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+        }
+    }
+}
